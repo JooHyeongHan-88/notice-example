@@ -7,7 +7,19 @@
   </div>
 
   <style>
+    .card {
+      width: 400px;
+      height: 250px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+    }
     .card:hover {
-        border-color: cornflowerblue;
+      border-color: cornflowerblue;
     }
   </style>

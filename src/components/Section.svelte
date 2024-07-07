@@ -4,18 +4,29 @@
 
 <div class="container mt-5">
     <h1>테스트</h1>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+    <div class="section">
+        <div class="wrapper">
             <Card />
-        </div>
-        <div class="col">
             <Card />
-        </div>
-        <div class="col">
             <Card />
-        </div>
-        <div class="col">
+            <Card />
+            <Card />
+            <Card />
             <Card />
         </div>
     </div>
 </div>
+
+<style>
+    .section {
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px; /* 카드 간의 간격을 고정 */
+        align-items: flex-start; /* 마지막 줄 카드가 왼쪽 정렬되도록 설정 */
+        max-width: 100%;
+    }
+</style>
